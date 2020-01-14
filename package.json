@@ -1,0 +1,35 @@
+{
+  "name": "simple-vue-swiper",
+  "version": "1.0.0",
+  "description": "Vue Swiper component. Easy to use",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ininit/simple-vue-swiper.git"
+  },
+  "author": "Ininit",
+  "license": "MIT",
+  "main": "dist/simple-vue-swiper.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --host 0.0.0.0 --config webpack.config.js",
+    "build": "webpack"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.2",
+    "vue-loader": "^15.8.3",
+    "vue-style-loader": "^4.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
